@@ -1,0 +1,19 @@
+.cell:focus {
+  outline: 0;
+}
+
+.cell {
+  margin: 10px;
+  padding: 40px;
+  width: 10px;
+  height: 10px;
+  border: 0;
+  background: lightgray;
+}
+.winner {
+  background: #444;
+}
+
+.container {
+  width: 300px;
+}
