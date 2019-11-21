@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/happy-find-square-game/static/css/main.1eb886ff.chunk.css",
+    "main.js": "/happy-find-square-game/static/js/main.2829814d.chunk.js",
+    "main.js.map": "/happy-find-square-game/static/js/main.2829814d.chunk.js.map",
+    "runtime-main.js": "/happy-find-square-game/static/js/runtime-main.f8f9ecfb.js",
+    "runtime-main.js.map": "/happy-find-square-game/static/js/runtime-main.f8f9ecfb.js.map",
+    "static/js/2.09a38b1b.chunk.js": "/happy-find-square-game/static/js/2.09a38b1b.chunk.js",
+    "static/js/2.09a38b1b.chunk.js.map": "/happy-find-square-game/static/js/2.09a38b1b.chunk.js.map",
+    "index.html": "/happy-find-square-game/index.html",
+    "precache-manifest.cd621b545c2625ffe7915fd1a1ab994a.js": "/happy-find-square-game/precache-manifest.cd621b545c2625ffe7915fd1a1ab994a.js",
+    "service-worker.js": "/happy-find-square-game/service-worker.js",
+    "static/css/main.1eb886ff.chunk.css.map": "/happy-find-square-game/static/css/main.1eb886ff.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f8f9ecfb.js",
+    "static/js/2.09a38b1b.chunk.js",
+    "static/css/main.1eb886ff.chunk.css",
+    "static/js/main.2829814d.chunk.js"
+  ]
+}
