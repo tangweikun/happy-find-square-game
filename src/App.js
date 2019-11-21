@@ -1,10 +1,10 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { Foo } from "./Foo";
+import { Game } from "./Game";
 
 function App() {
-  return <Foo />;
+  return <Game />;
 }
 
 export default App;

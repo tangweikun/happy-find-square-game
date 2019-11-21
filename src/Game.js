@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import "./Foo.css";
+import "./Game.css";
 
-export function Foo() {
+export function Game() {
   const [score, setScore] = useState(0);
   const [target, setTarget] = useState(0);
   const list = Array(9).fill(0);
@@ -25,14 +25,19 @@ export function Foo() {
 
   return (
     <div className="container">
-      <p>{`当前得分:${score}`}</p>
-      {list.map((_, index) => (
-        <button
-          key={index}
-          className={`cell ${index === target ? "winner" : ""}`}
-          onClick={() => handleClick(index)}
-        ></button>
-      ))}
+      <p>
+        <span>当前得分:</span>
+        <span className="score">{score}</span>
+      </p>
+      <div className="cell-wrapper">
+        {list.map((_, index) => (
+          <button
+            key={index}
+            className={`cell ${index === target ? "target" : ""}`}
+            onClick={() => handleClick(index)}
+          />
+        ))}
+      </div>
     </div>
   );
 }
