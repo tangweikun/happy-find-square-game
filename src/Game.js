@@ -19,7 +19,7 @@ export function Game() {
       setScore(score + 10);
       randomTarget();
     } else {
-      setScore(score - 10);
+      setScore(score - 20);
     }
   }
 
